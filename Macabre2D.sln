@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.202
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Macabre2D.Framework", "Framework\Macabre2D.Framework.csproj", "{D5B27B29-00A8-40A7-9911-46C84EBC7F37}"
 EndProject
@@ -10,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
 		LICENSE = LICENSE
 		README.md = README.md
-		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Macabre2D.Tests", "Tests\Macabre2D.Tests.csproj", "{24A0BAE5-1C52-416E-880A-C2440FF063D0}"
@@ -27,17 +26,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Macabre2D.Platforms.DesktopGL", "Platforms\DesktopGL\Macabre2D.Platforms.DesktopGL.csproj", "{1D3272F5-C42A-4577-914D-29F8759C91B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macabre2D.UI.Tests", "UI\Tests\Macabre2D.UI.Tests.csproj", "{38C69253-BBE3-460F-8672-C7FFC9F833F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Macabre2D.UI.Tests", "UI\Tests\Macabre2D.UI.Tests.csproj", "{38C69253-BBE3-460F-8672-C7FFC9F833F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macabre2D.UI.Common", "UI\Common\Macabre2D.UI.Common.csproj", "{68DD3E24-A9F7-4425-8DC2-2FDD3E6B1ADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Macabre2D.UI.Common", "UI\Common\Macabre2D.UI.Common.csproj", "{68DD3E24-A9F7-4425-8DC2-2FDD3E6B1ADE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{AD655337-5792-477A-A26B-F9EC878DBCEB}"
+	ProjectSection(SolutionItems) = preProject
+		HealthSystem.cs = HealthSystem.cs
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macabre2D.Scripts.Gameplay", "Scripts\Gameplay\Macabre2D.Scripts.Gameplay.csproj", "{4DB3FF2A-B643-4632-B244-27A56561F529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Macabre2D.Scripts.Gameplay", "Scripts\Gameplay\Macabre2D.Scripts.Gameplay.csproj", "{4DB3FF2A-B643-4632-B244-27A56561F529}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macabre2D.Scripts.Tests", "Scripts\Tests\Macabre2D.Scripts.Tests.csproj", "{BFD972F7-98D8-41F4-AF70-DC6BE8425254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Macabre2D.Scripts.Tests", "Scripts\Tests\Macabre2D.Scripts.Tests.csproj", "{BFD972F7-98D8-41F4-AF70-DC6BE8425254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macabre2D.Scripts.UI", "Scripts\UI\Macabre2D.Scripts.UI.csproj", "{1FEF7EE9-6D8F-4B8A-9249-57EB13495D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Macabre2D.Scripts.UI", "Scripts\UI\Macabre2D.Scripts.UI.csproj", "{1FEF7EE9-6D8F-4B8A-9249-57EB13495D28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
